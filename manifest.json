@@ -1,10 +1,10 @@
 {
-	applicationName:"BioExcel Portal test application",
-	contactEmail:"jadianes@gmail.com",
-	about:"A simple OpenStack Centos7 infrastructure",
-	version: 0.1,
-	imageSource:{
-		url:"http://homepages.cs.ncl.ac.uk/anirudh.agarwal/ESC_ENGINE.img",
-		name:"Image for Escience Engine [Ubuntu/14.04/KVM]"
+	"applicationName":"BioExcel Portal test application",
+	"contactEmail":"jadianes@gmail.com",
+	"about":"A simple OpenStack Centos7 infrastructure",
+	"version": "0.1",
+	"imageSource":{
+		"url":"http://homepages.cs.ncl.ac.uk/anirudh.agarwal/ESC_ENGINE.img",
+		"name":"Image for Escience Engine [Ubuntu/14.04/KVM]"
 	}
 }
