@@ -7,5 +7,5 @@
 		"url":"http://homepages.cs.ncl.ac.uk/anirudh.agarwal/ESC_ENGINE.img",
 		"name":"Image for Escience Engine [Ubuntu/14.04/KVM]"
 	},
-	"parameters": ["VPC","DATA_DISK_ID"]
+	"parameters": []
 }
