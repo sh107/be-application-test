@@ -1,5 +1,1 @@
-DEPLOYMENTS_ROOT=$1
-REFERENCE=$2
-APP_FOLDER=$3
-
-terraform apply -state=$DEPLOYMENTS_ROOT'/'$REFERENCE'/terraform.tfstate' $APP_FOLDER
+terraform apply -state=$PORTAL_DEPLOYMENTS_ROOT'/'$PORTAL_DEPLOYMENT_REFERENCE'/terraform.tfstate' $PORTAL_APP_REPO_FOLDER

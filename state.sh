@@ -1,4 +1,1 @@
-DEPLOYMENTS_ROOT=$1
-REFERENCE=$2
-
-terraform show $DEPLOYMENTS_ROOT'/'$REFERENCE'/terraform.tfstate'
+terraform show $PORTAL_DEPLOYMENTS_ROOT'/'$PORTAL_DEPLOYMENT_REFERENCE'/terraform.tfstate'
