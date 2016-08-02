@@ -9,5 +9,5 @@
 	},
 	"inputs": ["input1","input2"],
 	"outputs": ["output1","output2"],
-	"volumes": ["DATA_VOLUME", "BACKUP_VOLUME"]
+	"volumes": []
 }
