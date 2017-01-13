@@ -23,7 +23,7 @@ resource "openstack_compute_instance_v2" "centos7" {
 #    floating_ip = "${openstack_compute_floatingip_v2.floatip_1.address}"
     key_pair = "jdianes_cloud_key"
     security_groups = ["SSH-ICMP","all-open"]
-    provisioner "local-exec" {
-        command = "echo ${openstack_compute_instance_v2.centos7.access_ip_v4} > my_ip.txt"
-    }
+#    provisioner "local-exec" {
+#        command = "echo ${openstack_compute_instance_v2.centos7.access_ip_v4} > my_ip.txt"
+#    }
 }
